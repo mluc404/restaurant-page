@@ -3,6 +3,10 @@ import fries from "./images/animal_fries.jpg";
 import shake from "./images/shake.jpeg";
 let menuFunc = function () {
   let divContent = document.querySelector("#content");
+  let body = document.querySelector("body");
+
+  // Change body bg color
+  //   body.style.backgroundColor = "rgb(98, 65, 0)";
 
   // Create Menu headline
   let menuHeadline = document.createElement("div");

@@ -1,4 +1,8 @@
 let contactFunc = function () {
+  // Reset body bg color
+  let body = document.querySelector("body");
+  body.style.backgroundColor = "rgb(214, 151, 25)";
+
   let divContent = document.querySelector("#content");
 
   // Create contact headline
