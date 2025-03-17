@@ -1,0 +1,23 @@
+.contactHeadline {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.person {
+  height: 150px;
+  width: 300px;
+  background-color: rgb(231, 211, 78);
+  padding: 15px;
+}
+
+.personName {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.personInfo {
+  line-height: 1.5rem;
+  font-weight: 500;
+  white-space: pre;
+}

@@ -1,3 +1,17 @@
 body {
   background-color: skyblue;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 0px;
+  margin: 0;
+}
+
+button {
+  font-size: 1.1rem;
+  width: 100px;
+  height: 30px;
+}
+
+#content {
+  margin-top: 50px;
 }

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuHeadline {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.itemGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 20px;
+
+  width: 80%;
+}
+
+.item {
+  /* height: 150px; */
+  width: 300px;
+  background-color: rgb(231, 211, 78);
+  padding: 15px;
+
+  /* outline: red solid 2px; */
+}
+
+.itemName {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.itemInfo {
+  line-height: 1.5rem;
+  font-weight: 500;
+  white-space: pre;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#image3 {
+  object-position: 50% 10%;
+}
